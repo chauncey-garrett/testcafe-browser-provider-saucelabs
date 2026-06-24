@@ -1,5 +1,5 @@
 {
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "extends": "eslint:recommended",
   "rules": {
     "no-alert": "error",
@@ -83,5 +83,9 @@
   "env": {
     "node": true,
     "es6": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "requireConfigFile": false
   }
 }
